@@ -13,7 +13,6 @@ import org.springframework.test.web.servlet.MockMvc;
 
 @WebMvcTest(HomeController.class)
 public class HomeControllerTest {
-
     @Autowired
     private MockMvc mockMvc;
     @Test
